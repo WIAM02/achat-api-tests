@@ -37,5 +37,7 @@ def test_get_achat_with_mission_id_returns_200():
     print("BODY:", response.text)
     print("BODY:", response.text)
     print("BODY:", response.text)
+    print("BODY:", response.text)
+    print("BOD11Y:", response.text)
 
     assert response.status_code == 400
