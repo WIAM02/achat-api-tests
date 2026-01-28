@@ -4,6 +4,7 @@ pipeline {
     environment {
         BASE_URL   = 'https://dev.consult-it.com'
         API_PREFIX = '/api/v1'
+        API_TOKEN  = 'eb6f13b384b420af5d3c72c753a20745'
     }
 
     stages {
