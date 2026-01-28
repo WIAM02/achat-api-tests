@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        BASE_URL   = 'https://dev.consult-it.com'
+        API_PREFIX = '/api/v1'
+    }
+
     stages {
         stage('Setup') {
             steps {
