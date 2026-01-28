@@ -4,14 +4,15 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                sh 'python --version'
-                sh 'pip install -r requirements.txt'
+                bat 'python --version'
+                bat 'pip --version'
+                bat 'pip install -r requirements.txt'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'pytest'
+                bat 'pytest'
             }
         }
     }
