@@ -34,4 +34,4 @@ def test_get_achat_with_mission_id_returns_200():
     print("STATUS:", response.status_code)
     print("BODY:", response.text)
 
-    assert response.status_code == 400
+    assert response.status_code == 200
